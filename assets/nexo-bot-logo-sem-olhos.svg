@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Nexo Bot — símbolo N Bot</title>
+  <desc id="desc">Símbolo circular roxo de uma cabeça robótica minimalista sem olhos, com um N geométrico grande e centralizado no visor.</desc>
+  <defs>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#2E1065"/>
+    </linearGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#FAF5FF"/>
+      <stop offset="1" stop-color="#C4B5FD"/>
+    </linearGradient>
+    <linearGradient id="letter" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F5D0FE"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <circle cx="256" cy="256" r="246" fill="url(#badge)" />
+  <circle cx="256" cy="256" r="239" fill="none" stroke="#C4B5FD" stroke-opacity=".42" stroke-width="5"/>
+  <path d="M256 92v39" stroke="#FAF5FF" stroke-width="18" stroke-linecap="round" />
+  <circle cx="256" cy="81" r="24" fill="#F5D0FE" stroke="#FAF5FF" stroke-width="8" />
+  <rect x="81" y="221" width="52" height="91" rx="26" fill="#A78BFA" stroke="#FAF5FF" stroke-width="7" />
+  <rect x="379" y="221" width="52" height="91" rx="26" fill="#A78BFA" stroke="#FAF5FF" stroke-width="7" />
+  <rect x="111" y="127" width="290" height="265" rx="78" fill="url(#head)" stroke="#FAF5FF" stroke-width="9" />
+  <rect x="143" y="159" width="226" height="199" rx="54" fill="#1B1035" stroke="#7C3AED" stroke-width="7"/>
+  <path d="M204 317V202L308 317V202" fill="none" stroke="url(#letter)" stroke-width="27" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

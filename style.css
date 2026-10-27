@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+
+  background:
+    radial-gradient(
+      ellipse 90% 42% at 0% 108%,
+      rgba(124, 58, 237, 0.17) 0%,
+      rgba(124, 58, 237, 0.17) 62%,
+      transparent 62.5%
+    ),
+    radial-gradient(
+      ellipse 75% 36% at 104% 105%,
+      rgba(196, 181, 253, 0.11) 0%,
+      rgba(196, 181, 253, 0.11) 60%,
+      transparent 60.5%
+    ),
+    radial-gradient(
+      circle at 80% 25%,
+      rgba(168, 85, 247, 0.4) 0%,
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 15% 80%,
+      rgba(91, 33, 182, 0.45) 0%,
+      transparent 48%
+    ),
+    linear-gradient(120deg, #100923 0%, #281353 48%, #4c1d95 100%);
+
+  background-color: #100923;
+  color: #faf5ff;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
+
+/* header/cabeçalho */
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  background: rgba(19, 10, 43, 0.82);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.cabecalho-marca {
+  display: block;
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: #faf5ff;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* conteudo principal/main-section1 */
+
+.conteudo {
+  margin-bottom: 48px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-imagem {
+  height: 430px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #faf5ff;
+}
+
+.conteudo-principal-escrito-subtitulo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ede9fe;
+}
+
+/* botao Saiba Mais */
+
+.conteudo-principal-escrito-botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 180px;
+  height: 60px;
+  border-radius: 20px;
+
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+
+  background-color: #c4b5fd;
+  color: #2e1065;
+
+  box-shadow: 0 5px 16px rgba(124, 58, 237, 0.28);
+  transition: background-color 0.2s ease;
+}
+
+.conteudo-principal-escrito-botao:hover {
+  background-color: #ddd6fe;
+}
+
+/* conteudo secundario/main-section2 */
+
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+  border-top: 1px solid rgba(196, 181, 253, 0.35);
+  padding-top: 48px;
+
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #faf5ff;
+
+  margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ede9fe;
+  text-align: center;
+}
+
+/* footer/rodapé */
+
+.rodape {
+  padding: 32px;
+  border-top: 1px solid rgba(196, 181, 253, 0.35);
+}
+
+.rodape-marca {
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 40px;
+  color: #faf5ff;
+  text-align: center;
+}
+
+/* responsividade entre os celulares */
+
+@media (max-width: 768px) {
+  .cabecalho {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 16px;
+  }
+
+  .cabecalho-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 20px;
+  }
+
+  .cabecalho-menu-item {
+    font-size: 14px;
+  }
+
+  .conteudo-principal {
+    flex-direction: column;
+    padding: 32px 20px 0;
+    gap: 32px;
+  }
+
+  .conteudo-principal-escrito {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .conteudo-principal-escrito-titulo {
+    font-size: 48px;
+  }
+
+  .conteudo-principal-escrito-subtitulo {
+    font-size: 18px;
+  }
+
+  .conteudo-principal-imagem {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+  }
+
+  .conteudo-secundario {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .conteudo-secundario-paragrafo {
+    font-size: 16px;
+  }
+}
+
+/* deixar a rolagem mais suave */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* fundo fixo nas menores telas */
+
+@media (min-width: 769px) {
+  body {
+    background-attachment: fixed;
+  }
+}
+
+/* espaçamento de rolagem do cabeçalho */
+
+#funcionalidades {
+  scroll-margin-top: 130px;
+}
+
+/* responsividade entre tablets e telas medianas*/
+
+@media (min-width: 769px) and (max-width: 1100px) {
+  .conteudo-principal {
+    padding: 24px;
+    gap: 24px;
+  }
+
+  .conteudo-principal-escrito {
+    min-width: 0;
+  }
+
+  .conteudo-principal-escrito-titulo {
+    font-size: clamp(44px, 5.4vw, 60px);
+  }
+
+  .conteudo-principal-escrito-subtitulo {
+    font-size: clamp(18px, 2.2vw, 24px);
+  }
+
+  .conteudo-principal-imagem {
+    height: clamp(260px, 36vw, 390px);
+    max-width: 45%;
+  }
+
+  .cabecalho-menu {
+    gap: 18px;
+  }
+
+  .cabecalho-menu-item {
+    font-size: 16px;
+  }
+}
+
+/* visão do que está selecionada quando tiver navegando pelo TAB*/
+
+.cabecalho-menu-item:focus-visible,
+.conteudo-principal-escrito-botao:focus-visible {
+  outline: 3px solid #fde68a;
+  outline-offset: 4px;
+}
+
+/* ajuste de rolagem na versão mob */
+
+@media (max-width: 768px) {
+  #funcionalidades {
+    scroll-margin-top: 200px;
+  }
+}
+
+/* quando o movimento estiver como reduzido no celular */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .conteudo-principal-escrito-botao {
+    transition: none;
+  }
+}

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 395 430" width="395" height="430" role="img" aria-labelledby="title desc">
+<title id="title">Mascote Nexo Bot</title><desc id="desc">Robô futurista amigável em tons de roxo e lilás, com símbolo N no peito e mão levantada.</desc>
+<defs>
+  <linearGradient id="aura" x1=".15" y1="0" x2="1" y2="1"><stop stop-color="#8975DE"/><stop offset=".55" stop-color="#5C39AD"/><stop offset="1" stop-color="#302064"/></linearGradient>
+  <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFEFF"/><stop offset=".55" stop-color="#E9E0FF"/><stop offset="1" stop-color="#BFAAF4"/></linearGradient>
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#C4B5FD"/><stop offset=".45" stop-color="#9258E9"/><stop offset="1" stop-color="#5726AD"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#241640"/><stop offset="1" stop-color="#120C27"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5C36A8"/><stop offset="1" stop-color="#35166E"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#180A3A" flood-opacity=".28"/></filter>
+</defs>
+<!-- Atmospheric circular accent stays inside the original illustration footprint -->
+<circle cx="207" cy="218" r="144" fill="url(#aura)" opacity=".84"/>
+<circle cx="207" cy="218" r="132" fill="none" stroke="#D9CAFF" stroke-opacity=".23" stroke-width="2"/>
+<path d="M89 271c58-39 133-19 200-82 23-20 36-30 58-34" fill="none" stroke="#EFE9FF" stroke-opacity=".16" stroke-width="3" stroke-linecap="round"/>
+<path d="M110 140l5-13 5 13 13 5-13 5-5 13-5-13-13-5z" fill="#DFCFFF" opacity=".75"/>
+<path d="M310 103l3-8 3 8 8 3-8 3-3 8-3-8-8-3z" fill="#E2D5FF"/>
+<circle cx="312" cy="307" r="5" fill="#CAA8FF" opacity=".7"/>
+<!-- antenna -->
+<path d="M200 87V60" stroke="#2B174B" stroke-width="13" stroke-linecap="round"/>
+<circle cx="200" cy="48" r="17" fill="url(#purple)" stroke="#E4D6FF" stroke-width="4"/>
+<circle cx="194" cy="41" r="5" fill="#FFFFFF" opacity=".6"/>
+<!-- robot legs / hovering base -->
+<path d="M172 350v28M226 350v28" stroke="#26183E" stroke-width="15" stroke-linecap="round"/>
+<rect x="147" y="372" width="56" height="17" rx="8.5" fill="#D4C1FD" stroke="#9176D8" stroke-width="3"/>
+<rect x="201" y="372" width="56" height="17" rx="8.5" fill="#D4C1FD" stroke="#9176D8" stroke-width="3"/>
+<!-- limbs and open hands behind body -->
+<path d="M150 273L107 291 74 249" fill="none" stroke="#2B1A4B" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="107" cy="291" r="12" fill="#BFA8F2" stroke="#E6DEFF" stroke-width="3"/>
+<path d="M245 273l44 9 34 36" fill="none" stroke="#2B1A4B" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="289" cy="282" r="12" fill="#BFA8F2" stroke="#E6DEFF" stroke-width="3"/>
+<!-- left raised two-finger greeting -->
+<g filter="url(#shadow)">
+<path d="M69 244c-16-1-26-12-24-28 1-11 9-15 17-15l-6-42c-1-8 3-13 9-14 7-1 12 4 12 12l6 38 8-31c2-8 8-11 14-8 6 2 9 9 6 17l-11 46c-4 17-18 26-31 25z" fill="url(#body)" stroke="#3A285B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M56 210c7-6 13-4 19 0M80 203c8-5 15-3 18 5" fill="none" stroke="#987BCE" stroke-width="3" stroke-linecap="round"/>
+</g>
+<!-- right friendly hand -->
+<g filter="url(#shadow)">
+<path d="M317 306c8-6 18-5 23 2l20 30c3 5 2 10-2 13-5 3-10 2-13-2l-11-14 12 26c2 5 0 10-5 12-5 2-10-1-12-5l-10-22 4 29c1 6-3 10-9 11-6 0-10-4-11-10l-5-30-4 21c-1 5-6 8-11 7-5-1-8-6-7-11l7-32c3-15 12-23 24-25z" fill="url(#body)" stroke="#3A285B" stroke-width="4" stroke-linejoin="round"/>
+<path d="M325 333l-6 9M339 336l-9 8" stroke="#9B84D6" stroke-width="3" stroke-linecap="round"/>
+</g>
+<!-- torso -->
+<g filter="url(#shadow)">
+<rect x="129" y="247" width="144" height="120" rx="44" fill="url(#body)" stroke="#B29BEB" stroke-width="3"/>
+<path d="M163 257h72l-11 101h-52z" fill="url(#purple)"/>
+<path d="M166 259h68" stroke="#F6EEFF" stroke-opacity=".55" stroke-width="4"/>
+<ellipse cx="129" cy="288" rx="19" ry="33" fill="#DDD1FA" stroke="#B19BE4" stroke-width="3"/>
+<ellipse cx="273" cy="288" rx="19" ry="33" fill="#DDD1FA" stroke="#B19BE4" stroke-width="3"/>
+<!-- branded chest medallion -->
+<rect x="174" y="280" width="55" height="58" rx="14" fill="url(#panel)" stroke="#DAC4FF" stroke-width="4"/>
+<rect x="182" y="288" width="39" height="42" rx="9" fill="#201239"/>
+<path d="M190 320v-22l21 22v-22" fill="none" stroke="#F3E9FF" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<!-- neck -->
+<path d="M191 231v25" stroke="#281842" stroke-width="19"/>
+<!-- ears and face -->
+<g filter="url(#shadow)">
+<rect x="92" y="153" width="28" height="64" rx="13" fill="url(#purple)" stroke="#DAC6FF" stroke-width="4"/>
+<rect x="282" y="153" width="28" height="64" rx="13" fill="url(#purple)" stroke="#DAC6FF" stroke-width="4"/>
+<rect x="112" y="106" width="180" height="142" rx="54" fill="url(#body)" stroke="#EDE3FF" stroke-width="4"/>
+<path d="M135 130q58-37 130-3" fill="none" stroke="#FFFFFF" stroke-opacity=".66" stroke-width="9" stroke-linecap="round"/>
+<rect x="131" y="148" width="141" height="76" rx="30" fill="url(#glass)" stroke="#7F56C0" stroke-width="4"/>
+<path d="M158 189q14-26 28 0M216 189q14-26 28 0" fill="none" stroke="#F6EEFF" stroke-width="7" stroke-linecap="round"/>
+<path d="M189 204q13 13 26 0" fill="none" stroke="#DBC7FF" stroke-width="4" stroke-linecap="round"/>
+</g>
+</svg>
